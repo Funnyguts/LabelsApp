@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 STRICT //EN">
+<html>
+
+	<head>
+		<title>A Blink Game | bloomengine.com</title>
+	
+	<script src="jsprettify-all-latest.js"></script>	
+	<script src="jquery-1.6.1.min.js"></script>
+	
+	<script src="jquery.scrollTo-1.4.2-min.js"></script>
+        <script src="rot13.js"></script>
+        <script src="story.js"></script>
+	
+		
+
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+<script type="text/javascript">var ie = 0;</script>
+<!--[if IE]>
+<script type="text/javascript">ie = 1;</script>
+<![endif]-->
+
+
+
+	
+	
+
+
+
+	
+	
+	
+	<style>
+
+
+
+
+
+	</style>
+	</head>
+	<body id="title">
+				
+
+<script src="blink.min.js"></script>
+
+
+
+<div id="wrap" class="prettify">
+	<div id="content"></div><!--content-->
+	<div id="anchor"></div>
+	<div id="rail" class="fixed"></div>
+	<div id="name"><h1><strong>A Blink Game</strong> by <a href='http://bloomengine.com' target='_blank'>BloomEngine</a></h1></div>
+	<div id="meta">
+	</div><!--meta-->
+	<div id="debug"></div><!--debug-->
+
+</div><!--wrap-->
+	<div id="txtHint">textHint</div>
+<div id="startScreen"><div id="startScreenInner"></div></div>
+
+
+<script type="text/javascript">
+   
+      $(document).ready(function() {
+		config();
+		process('start'); 
+        document.title = gameTitle;
+		
+		gameTitle="<h1><strong>" + gameTitle + "</strong> <span>by " + gameAuthor + "</span></h1>";
+		$("#name").html(gameTitle);
+	
+      });
+ 
+
+//
+//var formElem = document.getElementById('debugForm');
+//
+//
+//debugQuerystring='<a href="?';
+//for (i in fname) {
+//	debugQuerystring += document.getElementById('dc').value;
+//	debugQuerystring += "|";
+//}
+
+//debugQuerystring=debugQuerystring.substring(0, debugQuerystring.length-1);	
+//debugQuerystring += '">Do it</a>';
+//document.getElementById('queryLoad').innerHTML = debugQuerystring;
+
+
+
+
+
+
+</script>
+
+	</body>
+</html>

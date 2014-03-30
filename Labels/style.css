@@ -1,0 +1,527 @@
+
+	
+/* ----------------------------------
+reset css
+---------------------------------- */	
+	
+	body,div,dl,dt,dd,ul,ol,li,pre,form,/*fieldset,*/input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+
+
+
+/* ----------------------------------
+Default font-styling for content area and editor
+---------------------------------- */
+table {border-collapse:collapse;border-spacing:0;}
+
+body {
+	
+
+
+	
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+color:#575757;
+	font: 20px/30px Georgia,Times,serif;
+
+
+}
+strong {
+    font-weight:bold;
+}
+p {
+		line-height:35px;
+		
+		margin-bottom:30px;
+		
+}
+
+.event p {
+   margin-bottom:30px;
+}
+
+h1,h2,h3,h4 {
+	font-family: sans-serif;
+}
+
+#content h1, #content h2 {
+    font-size: 30px;
+    font-weight:bold;
+   
+    margin-top:0;
+    display:block;
+    margin-bottom:20px;
+    line-height:30px;
+}
+
+#startScreen h1 {
+	font-weight:bold;
+}
+
+
+h3 {
+	font-weight:bold;
+	margin-bottom:.5em;
+}
+
+
+li {
+    list-style-type: square;
+    margin-left:1em;
+}
+
+
+
+/* //////////End Default Styling/////////////////// */
+
+.use {
+	position:relative;
+}
+
+.use #arrow {
+
+	background-image:url("use-anim.gif");
+	background-repeat:no-repeat;
+	background-position:left;
+	position:absolute;
+	width:47px;
+	height:50px;
+	left:298px;
+	bottom:60px;
+	z-index:100;
+
+}
+
+
+	body#inner {
+	background-color:#F8F8F8;
+	}
+	
+	
+	a {
+		color:#ff3500;
+		text-decoration:none;
+		border-bottom:1px dotted #F9B4A6;
+	}
+	
+	a:hover {
+		color:#000;
+		border-bottom:1px solid #000;
+	}
+		.spacer {
+			clear:both;
+			height:1px;
+		}
+		#content {
+			
+			background-color:#fff;
+			//min-height:400px;
+		
+			font-size:19px;
+			line-height:28px;
+			
+			border:1px solid silver;
+			padding:15px 20px 10px 20px;
+			margin-left:320px;
+	
+		}
+		
+		#wrap {
+			max-width:980px;
+			margin:auto;
+			padding-bottom:50px;
+			position:relative;
+			
+		}
+	
+		#new {
+			border-top:7px solid #BABABA;
+			padding-top:10px;
+			padding-bottom:30px;
+		}
+		
+		#name {
+			border:1px solid silver;
+			position:fixed;
+			top:0;
+			
+			width:298px;
+			
+		}
+		
+		#name h1 {
+			margin:0 !important;
+			padding:8px 10px;
+			
+			font: 20px/30px sans-serif;
+			font-size:18px !important;
+			line-height:18px !important;
+		}
+		
+		#name h1 span {
+			font-size:14px;
+		}
+		
+		#meta {
+			border:1px solid silver;
+			position:absolute; 
+			bottom:0;
+			
+			background-color:#fff;
+			height:35px;
+			margin-left:320px;
+			padding-left:4px;
+			
+		}
+		#meta a, #meta .deadLink {
+			margin-left:15px;
+			font-size:18px;
+			
+		}
+		
+		
+		.fine, .fine a {
+			font-size:12px !important;
+			margin:0 !important;
+		}
+
+		.metaText h2 {
+			color:#D5D5D5;
+		}
+		.metaText p {
+			font-family:sans-serif;
+			color:#BEBEBE;
+		}
+		.back {
+			margin:0;
+		}
+		.back a {
+			border:1px solid silver;
+			background-color:#f9f9f9;
+			width:60px;
+			padding-top:5px;
+			height:45px;
+			display:block;
+			text-align:center;
+			margin: 10px 0;
+			
+			clear:both;
+		}
+		
+		#inventory {
+			
+				
+			width:298px;
+			position:fixed;
+			
+			bottom:0;	/* this will keep it fixed to bottom */
+			
+			
+			
+			background-color:#fff;
+	
+			border:1px solid silver;
+			
+			padding-top:0;			
+		}
+		
+		#inventory h2 {
+			font-weight:bold;
+font-size:26px !important;
+line-height:50px;
+margin-bottom:0 !important;
+		}
+
+		#content, #name {
+			background-color:#fff;
+
+
+			
+		
+		}
+		
+		#inventory,  #meta  {
+	
+
+		}
+		
+		#inventory li, #meta * {
+		
+
+		}
+		
+		#inventory h2 {
+			padding-left:10px;
+			padding-top:0;
+			margin:0;
+			font-size:21px !important;
+			font-weight:bold;
+			border-bottom:1px dotted silver;
+		
+		}
+		
+		.use h2 {
+			
+			
+
+		
+		}
+		
+		#inventory h3 {
+		
+			font-size:18px !important;
+			font-weight:bold !important;
+			margin-top:.2em;
+			margin-bottom:0;
+		}
+		
+		
+	
+		#inventory li {
+			list-style-type:square;
+			margin-left:1em;
+			
+			
+			font-size:18px !important;
+			line-height:26px !important;
+		}
+		
+
+
+ .back a {
+
+-moz-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: -3px 3px 3px #f6f6f6;
+-webkit-box-shadow: -3px 3px 3px #f6f6f6;
+box-shadow: -3px 3px 3px #f6f6f6;
+ }
+		
+		#list {
+		
+			width:288px;
+			overflow:auto;
+			
+			bottom:0
+			margin-bottom:30px !important;
+		float:left;
+		padding-left:10px;
+		padding-bottom:10px;
+		padding-top:10px;
+		}
+				
+		#rail {
+		
+			
+		
+			overflow:auto;
+			
+			width:300px;
+			
+			min-height:100%;
+			
+			position:relative
+			
+		bottom:0;
+			
+
+			
+		}
+		.block {
+			width:500px;
+			float:right;
+		}
+	
+		
+		.old, .old * {
+			color:#D5D5D5;
+		}
+		.old {
+			height:auto !important;
+			border-top:1px dotted #ededed;
+			margin-bottom:15px;
+			padding-top:15px;
+		}
+		#rail .old, #rail .old * {
+			color:gray;
+		}
+		
+		.deadLink {
+			color: #AFAFAF;
+			border-bottom:1px dotted #D1D1D1;
+		}
+		
+		#objects {
+			width:270px;
+			float:left;
+			padding-bottom:10px;
+			
+		}
+		
+		#thoughts {
+			border-left:1px dotted silver;
+			padding-left:10px;
+		}
+		
+		
+
+/*		#objects {
+			border-top:3px solid #717171;
+		}
+		
+		#thoughts {
+			border-top:3px solid #B3B3B3;
+		}*/
+
+		body#title {
+
+	
+		}
+		html {
+	height:100%;
+		}
+		.event {
+			border-left:15px solid #EEEEEE;
+/*			background-color: #FAFAFA;
+			border: 1px solid #F6F6F6;*/
+			padding-left:5px;
+		}
+		.event, .event * {
+			font-family: sans-serif;
+			font-size:19px;
+
+		
+			/*
+			border:1px solid silver;
+			padding:10px;
+		
+			margin-bottom:15px;
+			
+			
+			-moz-border-radius: 7px;
+			border-radius: 7px;
+			background-color:#F1F1F1;*/
+		}
+
+* html #inventory { 
+   width: expression( document.body.clientHeight > 400 ? "400px" : "auto !important" ); /* sets max-width for IE */
+}
+
+#txtHint {
+	border:1px solid red;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#fff;
+	display:none;
+}
+
+#debug {
+	padding:3px;
+	position:fixed;
+	display: none;
+	height:600px;
+	overflow:auto;
+	top:0;
+	left:0;
+	width:150px;
+	background-color:#fff;
+	
+}
+
+	#debug * {
+		font-size:11px;
+		line-height:13px;
+	}
+	
+	
+	
+	
+	#debugForm input  {
+		width:60px;
+		border:1px solid #EEEEEE;
+	}
+	
+	#debugForm * {
+		float:left;
+	}
+	
+	#debugForm .form_block {
+		clear:both;
+		margin-bottom:4px;
+		border-top:1px dotted silver;
+	}
+	#debugForm label {
+		width:70px;
+		display:block;
+	}
+	
+	#debugForm input.button  {
+		margin-top:15px;
+		width:100px;
+	
+	}
+	
+	#title {
+		padding-top:70px;
+		padding-left:50px;
+	
+	
+			
+	}
+	
+	#title span {
+		padding-right:10px;
+		font-size:80px;
+		font-weight:normal;
+	}
+
+	
+	#title p {
+	
+		padding-left:3px;
+	}
+	
+	#title h1 {
+	
+	
+		line-height:80px;
+		margin-bottom:10px;
+		font-size:80px !important;
+		
+		padding:auto;
+	}
+	
+	#title h2 {
+		line-height:40px;
+		font-size:40px;
+		padding-left:3px;
+		margin:0;
+		margin-bottom:15px;
+	}
+
+
+.betaTesters li {
+	margin-bottom:.5em;
+}
+
+
+.fine {
+	font-size:11px;
+	padding-left:20px;
+	padding-right:15px;
+}
+		
+		
+	
+
+.hints li {
+margin-bottom:30px;
+font-size:11px;
+}
+	
+				
